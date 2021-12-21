@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  php:
+    image: public.ecr.aws/a9b0d6v6/fish_quiz:latest
+    #volumes:
+    #  - .:/var/www/html
+    ports:
+      - "80:80"
+
